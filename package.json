@@ -1,0 +1,11 @@
+{
+  "name": "investing-dashboard",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build-data": "node scripts/build-data.js",
+    "build": "npm run build-data && echo 'Static site ready'",
+    "serve": "python3 -m http.server 4174 -d public"
+  }
+}
