@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-04-10T18:50:37.808Z",
+  "summary": {
+    "holdingsCovered": 3,
+    "ideasCount": 3,
+    "bullishCount": 2,
+    "neutralCount": 1,
+    "bearishCount": 0
+  },
+  "ideas": [
+    {
+      "ticker": "EUNLd_EQ",
+      "source": "ETF trend model",
+      "headline": "EUNLd_EQ trend signal: bullish",
+      "stance": "bullish",
+      "signalType": "analysis",
+      "entryPrice": 88.93,
+      "currentPrice": 112.98,
+      "entryDeltaPct": 27,
+      "priceTarget": null,
+      "score": 34.2,
+      "whyNow": "Demo data: position remains well above entry; trend support still intact unless macro regime shifts.",
+      "url": null
+    },
+    {
+      "ticker": "IS3Nd_EQ",
+      "source": "ETF trend model",
+      "headline": "IS3Nd_EQ trend signal: bullish",
+      "stance": "bullish",
+      "signalType": "analysis",
+      "entryPrice": 31.21,
+      "currentPrice": 42.31,
+      "entryDeltaPct": 35.6,
+      "priceTarget": null,
+      "score": 34.2,
+      "whyNow": "Demo data: still well above entry; trend support remains.",
+      "url": null
+    },
+    {
+      "ticker": "INTC_US_EQ",
+      "source": "TradingView",
+      "headline": "INTC_US_EQ technical summary: neutral",
+      "stance": "neutral",
+      "signalType": "technical",
+      "entryPrice": 26.33,
+      "currentPrice": 61.74,
+      "entryDeltaPct": 134.5,
+      "priceTarget": null,
+      "score": 20,
+      "whyNow": "Demo data: TradingView technical gauge currently reads neutral.",
+      "url": "https://www.tradingview.com/symbols/NASDAQ-INTC/technicals/"
+    }
+  ],
+  "summaryLines": [
+    "1. EUNLd_EQ — Hold / add on strength | entry 88.93 | current 112.98 | vs entry +27.0%\n   Demo data: position remains well above entry; trend support still intact unless macro regime shifts.",
+    "2. IS3Nd_EQ — Hold / add on strength | entry 31.21 | current 42.31 | vs entry +35.6%\n   Demo data: still well above entry; trend support remains.",
+    "3. INTC_US_EQ — Watch | entry 26.33 | current 61.74 | vs entry +134.5%\n   Demo data: TradingView technical gauge currently reads neutral."
+  ],
+  "buildStatus": "degraded",
+  "error": "T212 credentials not found"
+}
