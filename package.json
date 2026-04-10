@@ -6,6 +6,11 @@
   "scripts": {
     "build-data": "node scripts/build-data.js",
     "build": "npm run build-data && echo 'Static site ready'",
-    "serve": "python3 -m http.server 4174 -d public"
+    "serve": "python3 -m http.server 4174 -d public",
+    "deploy": "wrangler deploy",
+    "preview": "wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.81.1"
   }
 }
